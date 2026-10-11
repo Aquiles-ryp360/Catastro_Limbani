@@ -36,6 +36,18 @@ Levantamiento, vectorización y consolidación catastral del casco urbano del di
 - `catastro_limbani.kml`: Archivo compatible con Google Earth Pro.
 - `verificacion_final/`: Imágenes de control y superposición en alta resolución por sectores.
 
+### 4. Herramientas y Pipeline de Procesamiento (`tools/`)
+- `tools/generate_official_catastre.py`: Pipeline maestro que integra el avance del usuario con el levantamiento oficial.
+- `tools/footprint_generator.py`: Algoritmo morfológico de generación de huellas de vivienda urbana andina.
+- `tools/create_consolidated_qgz.py`: Empaquetador del proyecto QGIS con enlaces relativos y mapa base.
+- `tools/export_official_kml.py`: Conversor y exportador a KML para Google Earth.
+- `tools/render_final_verification.py`: Motor OpenCV de control visual y superposición sobre ortofoto.
+- `tools/analyze_coverage.py`: Script de cálculo de métricas y metrados.
+- `tools/push_to_github.py`: Sincronizador automatizado de GitHub.
+
+### 5. Documentación para Agentes IA
+- `AGENT.md`: Manual técnico completo con las directivas, reglas de oro morfológicas y flujos de trabajo para otros agentes de IA.
+
 ---
 
 ## 📊 Metrados y Estadísticas Catastrales
