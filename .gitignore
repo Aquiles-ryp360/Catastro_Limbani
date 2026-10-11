@@ -1,0 +1,36 @@
+# Archivos temporales y locks de GeoPackage / SQLite
+*.gpkg-wal
+*.gpkg-shm
+*.sqlite-wal
+*.sqlite-shm
+
+# Backups y temporales de AutoCAD
+\#*.dxf
+\#*
+*.bak
+*.dwl
+*.dwl2
+
+# Temporales de QGIS
+*.qgs~
+*.qgz~
+
+# Temporales e inspecciones intermedias de prueba
+crop_*.png
+captura_*.png
+cancha_precise.png
+centro_norte_precise.png
+piscina_precise.png
+rio_verif_*.png
+test_*.png
+test_*.dxf
+autocad_black_screen_view.png
+vista_previa_*.png
+vista_completa_small.png
+grid_inspections/
+inspeccion_*.png
+
+# Archivos de sistema operativo
+Thumbs.db
+.DS_Store
+desktop.ini
